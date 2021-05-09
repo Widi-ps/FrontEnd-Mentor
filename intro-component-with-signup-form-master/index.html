@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="container">
+      <div class="left">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="right">
+        <div class="right_box blue_box">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+        <form class="right_box">
+          <div class="form_control">
+            <input type="text" id="fisrtName" placeholder="Firstname" />
+            <p class="small">First Name cannot be empty</p>
+          </div>
+
+          <div class="form_control">
+            <input type="text" id="lasttName" placeholder="Lastname" />
+            <p class="small">Last Name cannot be empty</p>
+          </div>
+
+          <div class="form_control">
+            <input type="email" id="email" placeholder="Email Address" />
+            <p class="small">Looks like this is not an email</p>
+          </div>
+
+          <div class="form_control">
+            <input type="password" id="password" placeholder="Password" />
+            <p class="small">Password cannot be empty</p>
+          </div>
+          
+          <button>Claim your free trial</button>
+          <p class="small">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
